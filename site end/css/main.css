@@ -1,0 +1,234 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header {
+background-image: url(../img/top_bg.jpg);
+background-color:#3d4148;
+background-repeat:repeat-x;
+background-position: top center;
+min-height:870px;
+min-width:100%;
+position:relative;
+font-family:"RalewaySemiBold";
+font-size:23px;
+}
+
+header a {color:#fafafa;}
+.top_line{
+	min-height:70px;
+	width:100%;
+	box-shadow:rgba (255,255,255,.3) 0 0 0 1px;
+	background-color:rgba(0,0,0,.3);
+	
+}
+.top_line a {
+	border-bottom: 1px solid transparent; 
+	transition: color .3s, border-bottom .3s;
+}
+ .top_line a:hover{border-bottom: 1px solid #ef402a;} 
+
+.top-main{
+ display:block;
+ padding-left:60px;
+ padding-top:20px;
+ padding-right:10px;
+ background-repeat:no-repeat;
+ background-position: left top;
+ text-transform:uppercase;
+ font-weight:normal;
+ font-family:"RalewaySemiBold";
+
+}
+.top-about{
+	font-family:"RalewaySemiBold";
+	display:block;
+	padding-left:30px;
+	padding-top:20px;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.top-prod{
+display:block;
+ padding-left:30px;
+ padding-top:20px;
+ background-repeat:no-repeat;
+ background-position:center left;	
+}
+.top-contacts{
+	display:block;
+	padding-left:30px;
+	padding-top:20px;
+	background-repeat:no-repeat;
+	background-position:center left;
+}
+header h1{
+	padding-left:60px;
+	text-align:left;
+	color:#fff;
+	margin-top:150px;
+	font-size:59px;
+	font-family:"RalewaySemiBold";
+}
+header h2{
+	padding-left:60px;
+	text-align:left;
+	color:#fff;
+	margin-top:10px;
+	font-size:24px;
+	font-family:"Ralewaylight";
+}
+.about{
+font-family:"Ralewaylight";
+background-color:#fff;
+display:block;
+background-repeat:no-repeat;
+background-position:left top;
+min-width: 100%;
+min-height:530px;
+position: relative;
+}
+.zag{
+padding-top:20px;
+}
+
+.about h2{
+padding-top:20px;
+width: 100%;
+border-bottom: 1px solid #ef402a;	
+font-family:"RalewaySemiBold";
+font-size:45px;
+}
+.about td{
+	text-align: left;
+	vertical-align:top;
+	border:10px solid transparent;
+}
+
+.about .f{width:25%;
+font-size:35px;}
+.about .s{width:25%;
+font-size:20px;}
+.about .t{width:50%;
+font-size:20px;}
+
+.text1{	
+width:160px;
+display:inline-block;   
+overflow: hidden;	
+}
+.prod{
+	color:#fff;
+	background-color:#d14b3a;
+	font-family:"Ralewaylight";
+	display:inline-block;
+	padding-left:30px;
+	padding-top:20px;
+	background-repeat:no-repeat;
+	background-position:left top;
+    min-width: 100%;
+	min-height:1100px; 
+    position: relative;
+}
+.prod h2{
+padding-top:20px;
+width: 91%;
+ padding-top:20px;
+border-bottom: 1px solid #3d4148;	
+font-family:"RalewaySemiBold";
+font-size:45px;}
+.text2{
+	display:inline-block;
+	overflow: hidden;
+	font-size:16px;
+}
+.text2 strong{
+	display:inline-block;
+	overflow: hidden;
+	font-size:30px;
+}
+.prod .f{
+font-size:24px;	
+}
+.contacts{
+	color:rgba(0,0,0,.3)
+	background-color:#fff;
+	font-family:"Ralewaylight";
+	display:block;
+ padding-left:30px;
+ padding-top:20px;
+ padding-bottom:20px;
+ background-repeat:no-repeat;
+ background-position:left top;
+ min-width: 100%;
+ min-height:350px;
+ position: relative;
+}
+.contacts h2{
+padding-top:20px;
+width: 77%;
+ padding-top:20px;
+border-bottom: 1px solid #ef402a;	
+font-family:"RalewaySemiBold";
+font-size:45px;
+}
+.contacts .n{
+	background-image: url(../img/phone.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	min-height:40px;
+	background-size:40px;
+	padding:4px 0px 0px 50px;
+}
+.contacts .m{
+	background-image: url(../img/mail.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	min-height:40px;
+background-size:40px;
+padding:4px 0px 0px 50px;
+}
+
+.text{font-size:20px;}
+footer{background-color:#3d4148;
+background-repeat:repeat-x;
+background-position: top center;
+min-height:50px;
+min-width:100%;
+position:relative;}
